@@ -51,4 +51,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #Gems added to the project
 gem 'activemodel-serializers-xml'
 gem 'webpacker', '~> 2.0'
+gem 'bcrypt', '~> 3.1.7'
+gem "i18n-js"
 #-------------------------
