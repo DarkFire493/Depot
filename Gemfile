@@ -51,6 +51,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #Gems added to the project
 gem 'activemodel-serializers-xml'
 gem 'webpacker', '~> 2.0'
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 gem "i18n-js"
+gem 'kaminari', '~> 1.0'
 #-------------------------

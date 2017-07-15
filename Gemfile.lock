@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/codahale/bcrypt-ruby.git
+  revision: 23b0517e20e7ddf2e733c1bcdb22b0b12166f042
+  specs:
+    bcrypt (3.1.11)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,7 +52,6 @@ GEM
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     arel (8.0.0)
-    bcrypt (3.1.11-x86-mingw32)
     bindex (0.5.0)
     builder (3.2.3)
     byebug (9.0.6)
@@ -78,6 +83,18 @@ GEM
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
+    kaminari (1.0.1)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.0.1)
+      kaminari-activerecord (= 1.0.1)
+      kaminari-core (= 1.0.1)
+    kaminari-actionview (1.0.1)
+      actionview
+      kaminari-core (= 1.0.1)
+    kaminari-activerecord (1.0.1)
+      activerecord
+      kaminari-core (= 1.0.1)
+    kaminari-core (1.0.1)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.6)
@@ -172,12 +189,13 @@ PLATFORMS
 
 DEPENDENCIES
   activemodel-serializers-xml
-  bcrypt (~> 3.1.7)
+  bcrypt!
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   i18n-js
   jbuilder (~> 2.5)
+  kaminari (~> 1.0)
   puma (~> 3.7)
   rails (~> 5.1.2)
   sass-rails (~> 5.0)
